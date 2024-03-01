@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  background-color: transparent;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #242222;
+  color: white;
+  font-weight: bolder;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+h1, p, label {
+  color: white;
+  font-weight: bolder;
+}
+
+label {
+  align-items: start;
+}
+
+h1, p {
+  text-align: center;
+}
+
+input {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+     border-radius: 10px;
+     border: 1px solid #2d9fd9;
+     color: #000000;
+     width: 250px;
+     height: 40px;
+     padding-left: 10px;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
